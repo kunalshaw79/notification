@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IIT-R Groups</title>
+    <link rel="icon" href="IIT-Roorkee-Symbol-3.png" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="public/CSS/style.css" />
+  </head>
+  <style>
+    .forimg{
+      width: 298px;
+      justify-content:space-evenly;
+    }
+  </style>
+  <body>
+    <nav class="navi">
+      <img
+        onclick="openNav()"
+        class="image"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAXVBMVEUAAAD///9QUFBtbW2Ghobc3NxCQkKSkpLj4+NeXl55eXn5+fk3NzfJycnw8PCtra08PDxvb28VFRW0tLSlpaXp6elGRkYuLi7V1dUkJCQJCQlmZmaIiIjCwsIfHx/xuc+8AAAB/ElEQVR4nO3dWW7CQBBF0S5GgzHzDGH/y0yTCCX/6NWTzD07uLJBuCiaUgAAAAAAAAAAAAAAAAAAAPzWg2zrzLxpEw7NNKlvZsn7NcsInBsDI+b6QOcVfNJfxdZc2KoDp+bACPXbjedd9L9GXOjuq7SBE3deNZEWDtx51YBCCim0o5BCCv0ofM/anVeJBzbuvFB/8i5jd1+MxYUjd2CMxIVlaQ5cqgPtT4jap8MfQ2vgUB9YyuJg6zssMgKrYeeYKbZdygUEAAAAAAC9stgMs22yZjTVdudZ/Wp325xA59hbPvB+2hsDI/b6QO96acaCqTlQ/uWa+R59Ut+nvon+y0Fc6O4L9W16dOdVR2lh/3cxKMxAIYUU+lFI4acXntx51Ula2P9P3uXs7ouzuHDjDoyNuND+A0T1zw9LuZgLL/LCsrAGpgy+r52tr7tmBFaTVZM/12+bVcJ+MAAAAAAA6JnbfZTtfsvLm7hGUV3SoMa5+JWwmljKlzEw4ksf6D44UX5K68McGKHehF65A2MlLnQfX6o/+sPdF2xfvqv/uxgUZqCQQgr9KKTw0wvdG1FP4q0od17Ity99+1AvnbjQ/0LUvgyLf4VWvUBb3E/58r8oqR7OE0yXj4RC5zRKPYX6M+3G+bqsP7QCAAAAAAAAAAAAAAAAAAAAAADot28rYDdr/QNwOwAAAABJRU5ErkJggg=="
+        alt=""
+      />
+      <div class="box" id="box1">
+        <a onclick="back_tab()" href="#"> home</a>
+      </div>
+      <div class="box" id="box2"><a href="home.html"> about</a></div>
+      <div class="box" id="box3">
+        <a href="https://iitr.ac.in/"> IIT-R Web</a>
+      </div>
+      <!-- <div class="box" id="box4"> -->
+      <input
+        style="font-size: 20px; margin: 5px; border-radius: 4px"
+        type="text"
+      />
+      <input
+        style="height: 35px; margin-top: 15px"
+        type="button"
+        value="search"
+      />
+    </nav>
+    <div id="welcome"></div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Developer</a>
+      <a href="https://www.linkedin.com/in/kunal-shaw-b929b3222/">Contact us</a>
+    </div>
+    <div class="notify">
+      <a target="_blank" href="http://localhost:3000/"
+        ><center>click here for notification</center>
+      </a>
+    </div>
+    <div id="cont" class="container">
+      <div class="forimg" id="tile1" onclick="open1()">
+        <img
+          src="infomanagage.jpg"
+          class="forimg1"
+          id="tile17"
+          alt="Programing and Algorithms group"
+        />
+      </div>
+      <div class="forimg" id="tile2" onclick="open2()">
+        <img
+          src="sds.png"
+          class="forimg1"
+          id="tile21"
+          alt="Programing and Algorithms group"
+        />
+      </div>
+      <div class="forimg" id="tile3" onclick="open3()">
+        <img
+          src="avatar-icon.jpg"
+          class="forimg1"
+          id="tile31"
+          alt="Programing and Algorithms group"
+        />
+      </div>
+      <div class="forimg" id="tile4" onclick="open4()">
+        <img
+          src="1519865614921.jpg"
+          class="forimg1"
+          id="tile41"
+          alt="Programing and Algorithms group"
+        />
+      </div>
+      <div class="forimg" id="tile5" onclick="open5()">
+        <img
+          src="th.jpg"
+          class="forimg1"
+          id="tile51"
+          alt="Programing and Algorithms group"
+        />
+      </div>
+      <div class="forimg" id="tile6" onclick="open6()">
+        <img
+          src="OIP (1).jpg"
+          class="forimg1"
+          id="tile61"
+          alt="Programing and Algorithms group"
+        />
+      </div>
+      <div class="forimg" id="tile7" onclick="open7()">
+        <img
+          src="OIP.jpg"
+          class="forimg1"
+          id="tile71"
+          alt="Programing and Algorithms group"
+        />
+      </div>
+      <div class="forimg" id="tile8" onclick="open8()">
+        <img
+          src="download.jpg"
+          class="forimg1"
+          id="tile81"
+          alt="Programing and Algorithms group"
+        />
+      </div>
+      <div class="forimg" id="tile9" onclick="open9()">
+        <img
+          src="logo.jpg"
+          class="forimg1"
+          id="tile91"
+          alt="Programing and Algorithms group"
+        />
+      </div>
+      <div class="forimg" id="tile10" onclick="open10()">
+        <img
+          src="AZoEcZJo3ziJGZA480x360.jpg"
+          class="forimg1"
+          id="tile101"
+          alt="Programing and Algorithms group"
+        />
+      </div>
+      <div class="forimg" id="tile11" onclick="open11()">
+        <img
+          src="download (1).jpg"
+          class="forimg1"
+          id="tile111"
+          alt="Programing and Algorithms group"
+        />
+      </div>
+      <div class="forimg" id="tile12" onclick="open12()">
+        <img
+          src="download (2).jpg"
+          class="forimg1"
+          id="tile121"
+          alt="Programing and Algorithms group"
+        />
+      </div>
+    </div>
+    <p id="data"></p>
+    <iframe width="100%" height="500px" src="http://localhost:3000/" frameborder="0"></iframe>
+    <div
+      style="width: 300px; background-color: rgb(31, 49, 65)"
+      id="kuna"
+    ></div>
+  </body>
+  <script>
+    var in_des = ` <img onclick="back_tab()" id="back_img" src="back.png" alt="">
+        <div class="dabba">
+            <div class="slideshow-container">
+              <div class="mySlides fade">
+                <img src="iitr.jpg" style="width:100%; height: 300px;">
+                <div class="text">IMG Ideas</div>
+              </div>
+              
+              <div class="mySlides fade">
+                <img src="infomanagage.jpg" style="width:100%; height: 300px;">
+                <div class="text">IMG is the best group in campus</div>
+              </div>
+              
+              <div class="mySlides fade">
+                <img src="IIT-Roorkee-Symbol-3.png" style="width:100%; height: 300px;">
+                <div class="text">I want to be part of IMG</div>
+              </div>
+              <div style="text-align:center">
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                </div>
+              </div>
+              </div>
+              <button class="collapsible">notification</button>
+<div class="content">
+ <div class="notify">
+  <div class="txt_con"><em class="gol">Kunal</em> <br> <p class="com"> This is common notification for all Groups.  
+        all groups can notify students here.
+      </p> <p class="samay">time:-2.30</p></div>
+      <div class="txt_con"><em class="gol">Kunal </em> <br> <p class="com">the text input button will be disabled for all students,so that no spaming</p> <p class="samay">time:-2.31</p></div>
+      <div class="txt_con"><em class="gol">IMG </em> <br><p class="com"> will kunal be a part of our family? </p> <p class="samay">time:-2.32</p></div>
+    // <textarea placeholder="only admin can type" name="input" id="txt_in" cols="30" rows="10"></textarea>
+    <button id="btn">
+      send</button>
+ </div>
+</div>
+<button class="collapsible">Events</button>
+<div class="content">
+  <p>anything that happens, especially something important or unusual:
+This year's Olympic Games will be the biggest ever sporting event.
+Susannah's party was the social event of the year.
+The police are trying to determine the series of events that led up to the murder.</p>
+</div>
+<button class="collapsible">Recruitment</button>
+<div class="content">
+  <p>Recruitment is the process of actively seeking out, finding and hiring candidates for a specific position or job. The recruitment definition includes the entire hiring process, from inception to the individual recruit's integration into the company.</p>
+</div>
+<button class="collapsible">Workshop</button>
+<div class="content">
+  <p>A workshop is a period of discussion or practical work on a particular subject in which a group of people share their knowledge or experience.</p>
+</div>
+
+    </div>
+          `;
+    function dropdown() {
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+    }
+    var initial = document.getElementById("cont").innerHTML;
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    function back_tab() {
+      document.getElementById("cont").innerHTML = initial;
+    }
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    var slideIndex = 0;
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2000); // decide the timeperiod for single image
+    }
+    function open1() {
+      document.getElementById("cont").innerHTML = in_des;
+      showSlides();
+      dropdown();
+    }
+    function open2() {
+      document.getElementById("cont").innerHTML = in_des;
+      showSlides();
+    }
+    function open3() {
+      document.getElementById("cont").innerHTML = in_des;
+      showSlides();
+    }
+    function open4() {
+      document.getElementById("cont").innerHTML = in_des;
+      showSlides();
+    }
+    function open5() {
+      document.getElementById("cont").innerHTML = in_des;
+      showSlides();
+    }
+    function open6() {
+      document.getElementById("cont").innerHTML = in_des;
+      showSlides();
+    }
+    function open7() {
+      document.getElementById("cont").innerHTML = in_des;
+      showSlides();
+    }
+    function open8() {
+      document.getElementById("cont").innerHTML = in_des;
+      showSlides();
+    }
+    function open9() {
+      document.getElementById("cont").innerHTML = in_des;
+      showSlides();
+    }
+    function open10() {
+      document.getElementById("cont").innerHTML = in_des;
+      showSlides();
+    }
+    function open11() {
+      window.location.href = "tile11.html";
+    }
+    function open12() {
+      window.location.href = "tile12.html";
+    }
+  </script>
+  <script src="index.js"></script>
+</html>
+<!--****************************recyle bin*****************************************-->
+<!-- <div id="myList" class="container2">
+      <div class="txt_con"><em class="gol">Kunal</em> <br> <p class="com"> This is common notification for all Groups.  
+        all groups can notify students here.
+      </p> <p class="samay">time:-2.30</p></div>
+      <div class="txt_con"><em class="gol">Kunal </em> <br> <p class="com">the text input button will be disabled for all students,so that no spaming</p> <p class="samay">time:-2.31</p></div>
+      <div class="txt_con"><em class="gol">IMG </em> <br><p class="com"> will kunal be a part of our family? </p> <p class="samay">time:-2.32</p></div>
+  </div>
+  <textarea name="input" id="txt_in" cols="30" rows="10"></textarea>
+  <button onclick="postComment()" id="btn2">send</button>
+  <div class="typing"></div> -->
